@@ -49,4 +49,49 @@ public class Coche {
         System.out.println("Has repostado tu " + marca + " " + modelo + " " + recargaLitrosGasolina + " litros de gasolina");
         return true;
     }
+
+    //Getters y Setters
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public double getGasolinaRestante() {
+        return gasolinaRestante;
+    }
+
+    public void setGasolinaRestante(double gasolinaRestante) {
+        this.gasolinaRestante = gasolinaRestante;
+    }
+
+    public double getCuentakilometros() {
+        return cuentakilometros;
+    }
+
+    public void setCuentakilometros(double cuentakilometros) {
+        this.cuentakilometros = cuentakilometros;
+    }
+
+    public int getValorEuros() {
+        return valorEuros;
+    }
+
+    public void setValorEuros(int valorEuros) {
+        this.valorEuros = valorEuros;
+    }
 }

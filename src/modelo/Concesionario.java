@@ -61,4 +61,33 @@ public class Concesionario {
                 + cocheVendido.valorEuros + " euros");
         return true;
     }
+
+    //Getters y Setters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getMarcaConcesionario() {
+        return marcaConcesionario;
+    }
+
+    public String getUbicacion() {
+        return ubicacion;
+    }
+
+    public ArrayList<Coche> getInventarioCoches() {
+        return inventarioCoches;
+    }
+
+    public void setInventarioCoches(ArrayList<Coche> inventarioCoches) {
+        this.inventarioCoches = inventarioCoches;
+    }
+
+    public int getEurosGanados() {
+        return eurosGanados;
+    }
+
+    public void setEurosGanados(int eurosGanados) {
+        this.eurosGanados = eurosGanados;
+    }
 }
