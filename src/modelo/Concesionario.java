@@ -1,5 +1,13 @@
 package modelo;
 
+/**
+ * @author Rafael Galán
+ * @version 1.0
+ * @since 02/04/2024
+ * @see Coche
+ * @see programa.Main
+ */
+
 import java.util.ArrayList;
 
 public class Concesionario {

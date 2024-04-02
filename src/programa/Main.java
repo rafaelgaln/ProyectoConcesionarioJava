@@ -1,5 +1,13 @@
 package programa;
 
+/**
+ * @author Rafael Galán
+ * @version 1.0
+ * @since 02/04/2024
+ * @see modelo.Coche
+ * @see modelo.Concesionario
+ */
+
 import modelo.Coche;
 import modelo.Concesionario;
 public class Main {
