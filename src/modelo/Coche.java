@@ -10,6 +10,7 @@ public class Coche {
     protected String color;
     protected double gasolinaRestante;
     protected double cuentakilometros;
+    protected int valorEuros;
 
     //Constructor
     public Coche (String marca, String modelo, String matricula, String color) {
@@ -18,6 +19,7 @@ public class Coche {
         this.matricula = matricula;
         gasolinaRestante = 0;
         cuentakilometros = 0;
+        valorEuros = (int) (Math.random() * 300000) +50000;
     }
 
     //Métodos
