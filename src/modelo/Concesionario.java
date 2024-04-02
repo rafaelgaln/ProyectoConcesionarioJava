@@ -21,7 +21,7 @@ public class Concesionario {
     protected ArrayList<Coche> inventarioCoches;
     protected int eurosGanados;
 
-    //Constructor
+    //Constructorr
     public Concesionario (String nombre, String marcaConcesionario, String ubicacion) {
         this.nombre = nombre;
         this.marcaConcesionario = marcaConcesionario;
